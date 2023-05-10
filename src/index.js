@@ -62,7 +62,7 @@ function checkServerStatus() {
             status: "online",
           });
           console.log("Server status: " + serverStatus);
-        }, 2000);
+        }, 7000);
       }
     })
     .catch((err) => {
